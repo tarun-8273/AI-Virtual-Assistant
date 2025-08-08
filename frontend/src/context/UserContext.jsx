@@ -4,7 +4,7 @@ import axios from 'axios';
 
 function UserContext({ children }) {
 
-    const serverUrl = 'http://localhost:8000'
+    const serverUrl = 'https://ai-virtual-assistant-y8gd.onrender.com'
 
     const [userData, setUserData] = useState(null);
 
