@@ -12,7 +12,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://virtual-assistant-8vnq.onrender.com",
   credentials: true,
 }));
 
